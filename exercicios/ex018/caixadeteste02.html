@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #330C0A;
+            margin: 0px;
+        }
+
+        header {
+            background-color: #FF9D99;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        main {
+            background-color: #CC5652;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px;
+            box-shadow: 4px 4px 9px 0px #00000065;
+        }
+
+        article {
+            background-color:#320609;
+            color: #120203;
+            padding: 5px;
+        }
+
+        nav {
+            background-color: #571c1c;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px #00000069;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: #CC5652;
+            font-weight: bold;
+            padding-right: 30px;
+            
+        }
+
+        article > aside {
+            background-color: #FF0E00;
+        }
+
+        footer {
+            background-color: #660400;
+            color: rgb(23, 1, 1);
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bolas {
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            margin: 20px;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>gente gulosa</h1>
+        <nav>
+            <a href="#">lavroura</a>
+        </nav>
+    </header>
+    <main>
+        <section id="coisas">
+            <p>palavras</p>
+        </section>
+        <section id="descoisas">
+            <article>
+                <h2>quitar do brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat magnam eum modi neque alias necessitatibus, earum beatae odit doloribus est. Expedita quibusdam ullam nisi minus odio deserunt ut molestias?</p>
+                <aside>
+                    <p>escrito por cristovao colombo </p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido pelo allgames</p>
+    </footer>
+    <div id="bolas"></div>
+</html>

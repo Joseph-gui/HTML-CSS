@@ -1,0 +1,27 @@
+div#bloco {
+    background-image: linear-gradient(to top, #3AD07D, #1A5C38);
+}
+
+header {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 60px;
+    margin: 0px;
+    color: white;
+}
+
+p {
+    font-style: oblique;
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+div#quadrado {
+    height: 1000px;
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    
+}
