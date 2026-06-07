@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+        }
+
+        caption {
+            font-size: 1,5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(71, 84, 71, 0.248);
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: red;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: green;
+        }
+
+        thead, tfoot {
+            background-color: #5b5b5b;
+            color: rgb(0, 0, 0);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #5b5b5b;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso com tabelas grandes</h1>
+
+    <table>
+        <caption>
+            Dados sobre a população e seus números
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4 518 627</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">10 135 584</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 800 356</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">3 648 812</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">6 735 243</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">7 126 837</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total de habitantes</th>
+                <td class="num">41 965 459</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
